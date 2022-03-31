@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Tickets</title>
+</head>
+<body>
+       <table border="1">
+        <tr>
+            <th>TICKET ID</th>
+            <th>FLIGHT ID</th>
+            <th>FLIGHT DATE</th>
+            <th>ORIGIN COUNTRY</th>
+            <th>DESTINATION COUNTRY</th>
+            <th>DELETE TICKET</th>
+        </tr>
+        {% for ticket in tickets %}
+            <tr>
+
+                <td>{{ ticket['ticket_id'] }}</td>
+                <td>{{ ticket['flight_id'] }}</td>
+                <td>{{ ticket['flight_time'] }}</td>
+                <td>{{ ticket['origin'] }}</td>
+                <td>{{ ticket['destination'] }}</td>
+                <td>
+                    <form action="http://127.0.0.1:5000/delete_ticket" method="post">
+                        <input type="submit" value="DELETE" name="delete">
+                        <input type="hidden" name="userID" value="{{user_id}}">
+                        <input type="hidden" name="ticketID" value="{{ticket['ticket_id']}}">
+                        <input type="hidden" name="flightID" value="{{ticket['flight_id']}}">
+                    </form>
+                </td>
+
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

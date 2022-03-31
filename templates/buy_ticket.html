@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Flights</title>
+</head>
+<body>
+<h1>Buy a Ticket</h1>
+<h3>Flights</h3>
+ <table border="1">
+        <tr>
+            <th>FLIGHT ID</th>
+            <th>FLIGHT DATE</th>
+            <th>ORIGIN COUNTRY</th>
+            <th>DESTINATION COUNTRY</th>
+            <th>PURCHASE</th>
+        </tr>
+        {% for flight in flights: %}
+            <tr>
+                <td>{{ flight['flight_id'] }}</td>
+                <td>{{ flight['flight_time'] }}</td>
+                <td>{{ flight['origin'] }}</td>
+                <td>{{ flight['destination'] }}</td>
+                <td>
+                    {% if  flight['seats'] > 0 %}
+                    <form action="http://127.0.0.1:5000/buy_ticket" method="post">
+                        <input type="submit" value="Purchase">
+                        <input type="hidden" name="userID" value="{{user_id}}">
+                        <input type="hidden" name="flightID" value="{{flight['flight_id']}}">
+                    </form>
+
+                    {% else %}
+                    <p style="color:red">Full Flight</p>
+
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

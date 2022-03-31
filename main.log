@@ -1,0 +1,76 @@
+2022-03-31 14:36:45,145: - > DEBUG - > Database opened.
+2022-03-31 14:36:45,187: - > INFO - >  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-03-31 14:36:45,196: - > INFO - >  * Restarting with stat
+2022-03-31 14:36:45,478: - > DEBUG - > Database opened.
+2022-03-31 14:36:45,503: - > WARNING - >  * Debugger is active!
+2022-03-31 14:36:45,512: - > INFO - >  * Debugger PIN: 450-032-182
+2022-03-31 14:36:50,246: - > INFO - > 127.0.0.1 - - [31/Mar/2022 14:36:50] "GET / HTTP/1.1" 200 -
+2022-03-31 14:36:50,371: - > INFO - > 127.0.0.1 - - [31/Mar/2022 14:36:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-03-31 14:36:52,841: - > INFO - > 127.0.0.1 - - [31/Mar/2022 14:36:52] "GET / HTTP/1.1" 200 -
+2022-03-31 14:37:13,109: - > INFO - > 127.0.0.1 - - [31/Mar/2022 14:37:13] "GET / HTTP/1.1" 200 -
+2022-03-31 14:37:13,112: - > INFO - > 127.0.0.1 - - [31/Mar/2022 14:37:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-03-31 14:37:19,034: - > INFO - > 127.0.0.1 - - [31/Mar/2022 14:37:19] "GET /sign_up HTTP/1.1" 200 -
+2022-03-31 14:37:42,226: - > INFO - > 127.0.0.1 - - [31/Mar/2022 14:37:42] "POST /create_user HTTP/1.1" 200 -
+2022-03-31 14:40:46,657: - > INFO - >  * Detected change in '/Users/user/Desktop/Arel/DevOps Final Project/server.py', reloading
+2022-03-31 14:40:46,739: - > INFO - >  * Restarting with stat
+2022-03-31 14:40:47,234: - > INFO - > Server on.
+2022-03-31 14:40:47,238: - > DEBUG - > Database opened.
+2022-03-31 14:40:47,239: - > DEBUG - > Database opened.
+2022-03-31 14:40:47,272: - > WARNING - >  * Debugger is active!
+2022-03-31 14:40:47,278: - > INFO - >  * Debugger PIN: 450-032-182
+2022-03-31 15:03:43,019: - > DEBUG - > Server off.
+2022-03-31 15:03:56,504: - > INFO - > Server on.
+2022-03-31 15:03:56,504: - > INFO - > Database opened.
+2022-03-31 15:03:56,506: - > INFO - > List of flights created.
+2022-03-31 15:03:56,506: - > INFO - > Database closed.
+2022-03-31 15:03:56,506: - > INFO - > Database opened.
+2022-03-31 15:03:56,507: - > INFO - > List of users created.
+2022-03-31 15:03:56,508: - > INFO - > Database closed.
+2022-03-31 15:03:56,508: - > INFO - > Database opened.
+2022-03-31 15:03:56,508: - > INFO - > List of tickets created.
+2022-03-31 15:03:56,509: - > INFO - > Database closed.
+2022-03-31 15:03:56,540: - > INFO - >  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-03-31 15:03:56,548: - > INFO - >  * Restarting with stat
+2022-03-31 15:03:56,808: - > INFO - > Server on.
+2022-03-31 15:03:56,808: - > INFO - > Database opened.
+2022-03-31 15:03:56,809: - > INFO - > List of flights created.
+2022-03-31 15:03:56,809: - > INFO - > Database closed.
+2022-03-31 15:03:56,809: - > INFO - > Database opened.
+2022-03-31 15:03:56,809: - > INFO - > List of users created.
+2022-03-31 15:03:56,809: - > INFO - > Database closed.
+2022-03-31 15:03:56,810: - > INFO - > Database opened.
+2022-03-31 15:03:56,810: - > INFO - > List of tickets created.
+2022-03-31 15:03:56,810: - > INFO - > Database closed.
+2022-03-31 15:03:56,830: - > WARNING - >  * Debugger is active!
+2022-03-31 15:03:56,837: - > INFO - >  * Debugger PIN: 450-032-182
+2022-03-31 15:04:25,536: - > INFO - > 127.0.0.1 - - [31/Mar/2022 15:04:25] "[32mPOST /check_sign_in HTTP/1.1[0m" 302 -
+2022-03-31 15:04:25,553: - > INFO - > 127.0.0.1 - - [31/Mar/2022 15:04:25] "GET /home_page/1 HTTP/1.1" 200 -
+2022-03-31 15:04:30,164: - > INFO - > 127.0.0.1 - - [31/Mar/2022 15:04:30] "GET /view_flights/1 HTTP/1.1" 200 -
+2022-03-31 15:04:42,260: - > INFO - > Database opened.
+2022-03-31 15:04:42,263: - > INFO - > Number of seats for flight id: 1 updated in the database.
+2022-03-31 15:04:42,263: - > INFO - > Database closed.
+2022-03-31 15:04:42,263: - > INFO - > Number of seats for flight id: 1 updated in list of flights.
+2022-03-31 15:04:42,264: - > INFO - > Database opened.
+2022-03-31 15:04:42,550: - > INFO - > New ticket for user: 1 added to the database.
+2022-03-31 15:04:42,551: - > INFO - > Database closed.
+2022-03-31 15:04:42,551: - > INFO - > New ticket for user: 1 added to the list of tickets.
+2022-03-31 15:04:42,552: - > INFO - > 127.0.0.1 - - [31/Mar/2022 15:04:42] "[32mPOST /buy_ticket HTTP/1.1[0m" 302 -
+2022-03-31 15:04:42,564: - > INFO - > Database opened.
+2022-03-31 15:04:42,565: - > INFO - > Database closed.
+2022-03-31 15:04:42,571: - > INFO - > 127.0.0.1 - - [31/Mar/2022 15:04:42] "GET /view_tickets/1 HTTP/1.1" 200 -
+2022-03-31 15:13:15,702: - > INFO - >  * Detected change in '/Users/user/Desktop/Arel/DevOps Final Project/user.py', reloading
+2022-03-31 15:13:15,764: - > INFO - >  * Restarting with stat
+2022-03-31 15:13:16,330: - > INFO - > Server on.
+2022-03-31 15:13:16,331: - > INFO - > Database opened.
+2022-03-31 15:13:16,333: - > INFO - > List of flights created.
+2022-03-31 15:13:16,333: - > INFO - > Database closed.
+2022-03-31 15:13:16,333: - > INFO - > Database opened.
+2022-03-31 15:13:16,335: - > INFO - > List of users created.
+2022-03-31 15:13:16,335: - > INFO - > Database closed.
+2022-03-31 15:13:16,335: - > INFO - > Database opened.
+2022-03-31 15:13:16,336: - > INFO - > List of tickets created.
+2022-03-31 15:13:16,337: - > INFO - > Database closed.
+2022-03-31 15:13:16,367: - > WARNING - >  * Debugger is active!
+2022-03-31 15:13:16,374: - > INFO - >  * Debugger PIN: 450-032-182
+2022-03-31 15:25:39,760: - > INFO - > Server off.
+2022-03-31 15:25:39,829: - > INFO - > Server off.

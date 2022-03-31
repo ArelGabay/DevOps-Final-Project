@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body>
+<form action="http://127.0.0.1:5000/create_user" method="post">
+        <h1>Sigh Up</h1>
+        <p style="color:red"> {{signup_error}} </p>
+        <p>ID: <input name="id" value=""></p>
+        <p>Password: <input name="psw" value="" type="password"></p>
+        <p>Password: <input name="psw_confirm" value="" type="password"></p>
+        <p>First Name: <input name="f_name" value=""></p>
+        <p>Last Name: <input name="l_name" value=""></p>
+        <input type="submit" value="Sign Up">
+</form>
+</body>
+</html>
